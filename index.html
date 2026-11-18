@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BB Epoxy Flooring | Tirur Kerala</title>
+<meta name="description" content="Professional Epoxy Flooring, 3D Flooring and Metallic Epoxy Flooring services in Tirur, Malappuram, Kerala.">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#101820;color:#fff}
+header{background:#080d12;padding:20px;text-align:center;border-bottom:2px solid #d6a84b}
+.logo{font-size:28px;font-weight:bold;color:#e7b957}
+nav{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;padding:15px}
+nav a{color:white;text-decoration:none}
+button{background:#d6a84b;color:#111;border:0;padding:10px 18px;border-radius:7px;font-weight:bold}
+.hero{text-align:center;padding:65px 18px;background:linear-gradient(135deg,#17232c,#364653)}
+.hero h1{font-size:34px;color:#f3c76b}
+.hero p{line-height:1.7}
+section{padding:35px 18px;text-align:center}
+h2{color:#e8bb62}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:14px}
+.service{background:#202e39;padding:22px;border-radius:12px}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.gallery img{width:100%;height:170px;object-fit:cover;border-radius:10px;border:1px solid #d6a84b}
+.contact{background:#202e39;padding:30px}
+.contact a{display:inline-block;margin:8px;padding:13px 18px;background:#d6a84b;color:#111;text-decoration:none;border-radius:8px;font-weight:bold}
+footer{padding:20px;text-align:center;background:#080d12;color:#bbb}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">BB EPOXY FLOORING</div>
+<p>Tirur | Malappuram | Kerala</p>
+<button onclick="toggleLang()">English / മലയാളം</button>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+<h1 id="heading">Premium Epoxy Flooring Services</h1>
+<p id="intro">Transform your old floors into beautiful, glossy and modern floors.</p>
+<p>✨ Quality Work | Professional Service | Customer Satisfaction</p>
+</div>
+
+<section id="services">
+<h2 id="serviceTitle">Our Services</h2>
+<div class="services">
+<div class="service">✨ 3D Epoxy Flooring</div>
+<div class="service">💎 Metallic Epoxy Flooring</div>
+<div class="service">🏠 Residential Flooring</div>
+<div class="service">🏢 Commercial Flooring</div>
+<div class="service">🛠️ Floor Repair & Coating</div>
+<div class="service">🌟 Decorative Flooring</div>
+</div>
+</section>
+
+<section id="gallery">
+<h2 id="galleryTitle">Our Photo Gallery</h2>
+<div class="gallery">
+<img src="Screenshot_20261118_211211.jpg" alt="Flooring photo 1">
+<img src="Screenshot_20261118_211158.jpg" alt="Flooring photo 2">
+<img src="Screenshot_20261118_211121.jpg" alt="Flooring photo 3">
+<img src="Screenshot_20261118_211136.jpg" alt="Flooring photo 4">
+<img src="Screenshot_20261118_211108.jpg" alt="Flooring photo 5">
+<img src="Screenshot_20261118_211051.jpg" alt="Flooring photo 6">
+</div>
+</section>
+
+<section class="contact" id="contact">
+<h2 id="contactTitle">Contact Us</h2>
+<p><b>Biswajit Ballav</b></p>
+<p>📍 Tirur, Malappuram, Kerala</p>
+<p>📞 9903444330</p>
+<a href="tel:+919903444330">Call Now</a>
+<a href="https://wa.me/919903444330?text=Hello%20BB%20Epoxy%20Flooring,%20I%20need%20flooring%20service." target="_blank">WhatsApp Us</a>
+</section>
+
+<footer>
+<p>© 2026 BB Epoxy Flooring. All Rights Reserved.</p>
+<p>Tirur and surrounding 15 KM</p>
+</footer>
+
+<script>
+let malayalam=false;
+function toggleLang(){
+malayalam=!malayalam;
+document.getElementById('heading').innerText=malayalam?'മികച്ച എപ്പോക്സി ഫ്ലോറിംഗ് സേവനങ്ങൾ':'Premium Epoxy Flooring Services';
+document.getElementById('intro').innerText=malayalam?'പഴയ നിലകൾ മനോഹരവും തിളക്കമുള്ളതുമായ പുതിയ നിലകളാക്കി മാറ്റാം.':'Transform your old floors into beautiful, glossy and modern floors.';
+document.getElementById('serviceTitle').innerText=malayalam?'ഞങ്ങളുടെ സേവനങ്ങൾ':'Our Services';
+document.getElementById('galleryTitle').innerText=malayalam?'ഞങ്ങളുടെ ചിത്രങ്ങൾ':'Our Photo Gallery';
+document.getElementById('contactTitle').innerText=malayalam?'ബന്ധപ്പെടുക':'Contact Us';
+}
+</script>
+</body>
+</html>
